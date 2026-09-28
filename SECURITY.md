@@ -7,7 +7,7 @@ repository:
 
 1. Open the repository's **Security** tab.
 2. Choose **Report a vulnerability**.
-3. Describe the problem, the affected specification, schema or fixture, and how to reproduce
+3. Describe the problem, the affected file, and how to reproduce
    it.
 
 Do not open a public issue, pull request or discussion about a vulnerability. There is no

@@ -1,0 +1,13 @@
+Central City conformance kit
+Copyright 2026 Central City contributors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The conformance cases and JSON Schemas in cases/ are copied from centralcity-ai/protocol
+(Apache-2.0). Dependencies are installed from the npm registry according to package-lock.json,
+each under its own license:
+
+  ajv 8.20.0                           MIT
+  ajv-formats 3.0.1                    MIT
+
+All 6 packages in package-lock.json are licensed under MIT or BSD-3-Clause.

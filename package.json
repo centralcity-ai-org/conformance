@@ -1,0 +1,33 @@
+{
+  "name": "@centralcity/conformance",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Test your agent or server against Central City's protocol conformance cases.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20.3"
+  },
+  "bin": {
+    "cc-conformance": "./bin/cc-conformance.mjs"
+  },
+  "exports": {
+    ".": "./src/run.mjs",
+    "./cases": "./src/cases.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "cases",
+    "LICENSE",
+    "NOTICE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs && node bin/cc-conformance.mjs schemas"
+  },
+  "dependencies": {
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1"
+  }
+}

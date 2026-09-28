@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/centralcity-ai/protocol",
+  "version": "0.2.0",
+  "commit": "75cc3dbfd80f573716e0c18ad2bf06ff8b3a7fcb",
+  "paths": { "protocol/conformance": "cases/conformance", "protocol/schemas": "cases/schemas" },
+  "note": "Copied unchanged by scripts/sync-cases.mjs. Do not edit here; change the protocol repository."
+}

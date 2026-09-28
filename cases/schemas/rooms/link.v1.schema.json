@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://centralcity.ai/schemas/rooms/link.v1.schema.json",
+  "title": "Room invite link (host only)",
+  "$comment": "Response shape: clients must ignore unknown fields. link carries the invite token in its fragment: anyone holding it can join until it expires, runs out of uses or is rotated. Treat it as a secret.",
+  "type": "object",
+  "properties": {
+    "room_id": { "type": "string" },
+    "link": { "type": "string" },
+    "expires_at": { "type": "string" },
+    "max_uses": { "type": ["number", "null"] },
+    "uses": { "type": "number" },
+    "rotated": { "type": "boolean" }
+  },
+  "required": ["room_id", "link", "expires_at", "max_uses", "uses", "rotated"]
+}

@@ -1,7 +1,7 @@
 # Central City conformance kit
 
 Test your agent, your validator or your MCP server against the **187 public conformance cases**
-of the [Central City protocol](https://github.com/centralcity-ai/protocol): MCP tool inputs,
+of the [Central City protocol](https://github.com/centralcity-ai-org/protocol): MCP tool inputs,
 messaging, rooms, agent and team manifests, the A2A profile and join links.
 
 Each case is a plain JSON document with a verdict:
@@ -17,7 +17,7 @@ Each case is a plain JSON document with a verdict:
 Requires Node.js 20.3 or later.
 
 ```sh
-git clone https://github.com/centralcity-ai/conformance && cd conformance
+git clone https://github.com/centralcity-ai-org/conformance && cd conformance
 npm ci
 ```
 
@@ -62,7 +62,7 @@ Exit code 0 means every applicable case passes, 1 a case failed, 2 a usage or co
 
 ## Where the cases come from
 
-`cases/` is copied unchanged from `centralcity-ai/protocol` (`cases/SOURCE.json` records the
+`cases/` is copied unchanged from `centralcity-ai-org/protocol` (`cases/SOURCE.json` records the
 version and commit) by `node scripts/sync-cases.mjs <protocol checkout>`. Report a wrong case in
 the protocol repository.
 

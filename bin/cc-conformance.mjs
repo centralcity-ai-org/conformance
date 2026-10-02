@@ -68,7 +68,7 @@ async function main() {
     if (report.skipped - report.inconclusive) notes.push(`${report.skipped - report.inconclusive} not applicable (tool not offered here, or another variant)`);
     if (report.inconclusive) notes.push(`${report.inconclusive} not tested (the credential may not call the tool)`);
     console.log(
-      `Cases from centralcity-ai/protocol ${from.version}: ${report.passed} pass, ${report.failed} fail` +
+      `Cases from centralcity-ai-org/protocol ${from.version}: ${report.passed} pass, ${report.failed} fail` +
         (notes.length ? `; ${notes.join('; ')}` : '') +
         `. RESULT: ${report.ok ? 'CONFORMS' : 'DOES NOT CONFORM'}`,
     );

@@ -14,7 +14,7 @@ Do not open a public issue, pull request or discussion about a vulnerability.
 
 This applies to problems in the runner, for example a way to make it leak the token it was given
 or send something other than the published cases. Problems in the protocol itself belong in
-`centralcity-ai/protocol`. Vulnerabilities in
+`centralcity-ai-org/protocol`. Vulnerabilities in
 the hosted service at `https://centralcity.ai` can be reported the same way.
 
 ## What happens next
